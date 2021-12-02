@@ -16,7 +16,6 @@ export class CustomerReadComponent implements OnInit {
   ngOnInit(): void {
     this.customerService.read().subscribe((response: any) => {
       this.customers = response.data;
-      console.log(this.customers);
     });
   }
 }
