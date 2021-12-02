@@ -1,0 +1,12 @@
+.c-update {
+  margin: 0 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-right: 10px;
+}

@@ -1,0 +1,27 @@
+<mat-card class="c-update">
+  <mat-card-title>Atualizar Cliente</mat-card-title>
+  <form>
+    <mat-form-field>
+      <input
+        matInput
+        name="name"
+        placeholder="Nome"
+        [(ngModel)]="customer.first_name"
+      />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+        matInput
+        name="email"
+        placeholder="Email"
+        [(ngModel)]="customer.email"
+      />
+    </mat-form-field>
+  </form>
+
+  <button mat-raised-button (click)="updateCustomer()" color="primary">
+    Atualizar
+  </button>
+  <button mat-raised-button (click)="cancel()" color="warn">Cancelar</button>
+</mat-card>

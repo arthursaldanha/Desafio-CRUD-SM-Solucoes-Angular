@@ -1,0 +1,12 @@
+.c-card {
+  margin: 0 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin: 10px 10px 0 0;
+}
